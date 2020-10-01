@@ -69,6 +69,7 @@ img {
     margin: 0;
     padding: 10px 5px;
   }
+
   #why .col-lg-12 img {
     padding: 15px;
   }
@@ -76,5 +77,20 @@ img {
 }
 
 @media screen and (min-width: 769px) and (max-width: 991px){
-  
+
+  #lezioni, #why{
+    background-color: #f2f2cd;
+    margin: 0;
+    padding: 20px 10px;
+  }
+
+  #steps{
+    background-color: white;
+    margin: 0;
+  }
+
+  img{
+    margin: 20px 0;
+  }
+
 }
