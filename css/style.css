@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* BLOCCO LEZIONI */
 
 #lezioni .col-lg-12 img {
@@ -43,4 +49,32 @@
 
 img {
   height: 200px;
+}
+
+
+@media screen and (max-width: 768px) {
+  img{
+    height: 25vw;
+    margin: 10px 0;
+  }
+
+  #lezioni, #why{
+    background-color: #f2f2cd;
+    margin: 0;
+    padding: 10px 5px;
+  }
+
+  #steps{
+    background-color: white;
+    margin: 0;
+    padding: 10px 5px;
+  }
+  #why .col-lg-12 img {
+    padding: 15px;
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px){
+  
 }
